@@ -21,4 +21,14 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="42dp" />
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Information"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="294dp" />
+
 </android.support.constraint.ConstraintLayout>

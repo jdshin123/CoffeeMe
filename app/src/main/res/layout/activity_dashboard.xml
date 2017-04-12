@@ -20,14 +20,23 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_dashboard" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="129dp"
+        android:layout_height="304dp"
+        app:srcCompat="@drawable/chemex" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_gravity="top|right"
+        android:text="Chemex"
+        app:layout_anchor="@+id/layout33"
+        app:layout_anchorGravity="center_vertical|left" />
+
+    <include
+        android:id="@+id/layout33"
+        layout="@layout/content_dashboard" />
 
 </android.support.design.widget.CoordinatorLayout>

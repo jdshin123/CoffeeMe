@@ -32,8 +32,8 @@
         android:layout_height="wrap_content"
         android:text="Dashboard"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="393dp"
+        tools:layout_editor_absoluteY="393dp" />
 
-        />
+
 
 </android.support.constraint.ConstraintLayout>
