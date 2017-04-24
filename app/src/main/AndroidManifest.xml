@@ -20,7 +20,14 @@
             android:name=".Dashboard"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Chemex"></activity>
+        <activity android:name=".Chemex" />
+        <activity
+            android:name=".Hario"
+            android:label="@string/title_activity_hario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AutomatedMachine" />
+        <activity android:name=".AeroPress" />
+        <activity android:name=".FrenchPress"></activity>
     </application>
 
 </manifest>

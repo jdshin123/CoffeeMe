@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CoffeeMe</string>
     <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_hario">Hario</string>
 </resources>
