@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context="coffee.coffeeme.AutomatedMachine">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="282dp"
+        android:layout_height="266dp"
+        android:text="Dont use automated systems to brew your coffee. "
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="146dp"
+        android:textSize="40dp"/>
 </android.support.constraint.ConstraintLayout>

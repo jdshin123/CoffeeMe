@@ -15,8 +15,8 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         Button btn2 = (Button)findViewById(R.id.button2);
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +52,7 @@ public class Dashboard extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Dashboard.this, FrenchPress.class));
+                startActivity(new Intent(Dashboard.this, AeroPress.class));
             }
         });
 
